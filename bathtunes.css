@@ -11,14 +11,7 @@
   border: 20px, #99E498;
   border-color: #99E498;
   background-color: rgba(136, 224, 224, 0.5);
-  top: 0;
   position: fixed;
-  transition: all 0.4s ease-in-out
-  -webkit-transition: all 0.4s ease-in-out
-  -moz-transition: all 0.4s ease-in-out
-  z-index: 9999
-  top: 0
-  position: fixed
 }
 ul {
   list-style-type: none;
@@ -66,9 +59,23 @@ iframe {
 h3 {
   margin-top: 300px;
 }
-.shrink {
-  height: 10px;
+.header.shrink {
+  height: 50px;
   width: 100%;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  top: 0;
+  position: fixed
+}
+.heading.shrink {
+  margin-top: 0px;
+  font-size: 40px;
+  transition: all 0.4s ease-in-out;
+  top: 0;
+}
+.ul.shrink {
+  width: 20px;
 }
 .space {
   padding: 150px;

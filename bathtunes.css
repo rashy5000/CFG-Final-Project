@@ -29,6 +29,7 @@ ul {
   text-align: center;
   border: 2px solid #88E0E0;
   border-radius: 10px;
+  background-color: black;
   width: 100%;
 }
 li {
@@ -37,7 +38,6 @@ li {
     margin-left: 'auto';
     padding: 20px;
     font-family:'Oxygen', sans-serif;
-    background-color: black;
     text-align: center;
 }
 body {

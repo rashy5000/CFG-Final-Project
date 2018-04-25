@@ -67,5 +67,9 @@ h3 {
   margin-top: 300px;
 }
 .shrink {
-  padding: 10px 0;
+  height: 10%;
+  width: 100%;
+}
+.space {
+  padding: 150px;
 }
